@@ -2,9 +2,8 @@ name: Shell Commands
 
 on:
   schedule:
-  - cron "52/5 * * * *"
-  - cron "52/6 * * * *"
-
+   - cron "40/15 * * * *"
+  
 jobs:
   run-shell-command:
     runs-on: ubuntu-latest
